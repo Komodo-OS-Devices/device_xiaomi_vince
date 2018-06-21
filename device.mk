@@ -377,7 +377,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.vince-libperfmgr
+    android.hardware.power@1.3-service.vince-libperfmgr
 
 # Powerhint
 PRODUCT_COPY_FILES += \
