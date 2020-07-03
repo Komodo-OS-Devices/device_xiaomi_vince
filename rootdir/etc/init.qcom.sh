@@ -27,9 +27,13 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# Remove settings cache, avoids derps after dirty flash
+rm -rf /data/system/package_cache
+
 #
 # Make modem config folder and copy firmware config to that folder for RIL
 #
+
 if [ -f /data/vendor/modem_config/ver_info.txt ]; then
     prev_version_info=`cat /data/vendor/modem_config/ver_info.txt`
 else
