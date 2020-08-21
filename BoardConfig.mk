@@ -216,7 +216,8 @@ BOARD_VNDK_RUNTIME_DISABLE := true
 
 # We modify several neverallows, so let the build proceed
 ifneq ($(TARGET_BUILD_VARIANT),user)
-SELINUX_IGNORE_NEVERALLOWS := true
+   BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+   SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
 # Wi-Fi
