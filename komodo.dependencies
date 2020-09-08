@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "Komodo-OS-Devices/vendor_xiaomi",
+    "repository": "Kry9toN/vendor_xiaomi",
     "target_path": "vendor/xiaomi"
   },
   {
