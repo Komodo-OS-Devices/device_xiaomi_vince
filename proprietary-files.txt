@@ -1,15 +1,16 @@
-# ADSP - from LA.UM.8.6.r1-04000-89xx.0
-vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
-vendor/lib/libadsprpc.so|a17e796a9ede3f7ecaf3f60f2794cdd374d60b4c
-vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
-vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
-vendor/lib/libfastcvopt.so|8a6e46acd3c8d510f7554a09fc5b82bb09dec23a
-vendor/lib/libmdsprpc.so|8eddd199ae7a78f47196855f2e081f6e76da2a5a
-vendor/lib64/libadsprpc.so|fbf3b6390a5b41def0dae0eac9b85d0d7e5ba43f
-vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
-vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
-vendor/lib64/libfastcvopt.so|9f95397d7e1b171f9b00323ed7acc17341200e01
-vendor/lib64/libmdsprpc.so|c9995d06bad26f97e1475e6c7471257e93fa8f82
+# ADSP - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/adsprpcd|5b803e679ddbce4e59c2a67433ffefa6396d61f3
+vendor/lib/libadsprpc.so|ed3486181652adc974e8270a30b860bfdb70dcc2
+vendor/lib/libadsp_default_listener.so|06609adb02ac321039e043b3fa85b84e02404b7a
+vendor/lib/libfastcvadsp_stub.so|9f82a7d713f92772e9b47570d50ba08c3c051991
+vendor/lib/libfastcvopt.so|d1416581cb3dcaedfbe37e55139dc441f5690921
+vendor/lib/libmdsprpc.so|62adf1fb4cdfcba59f0f7be0a531ca8cb81954ea
+vendor/lib/libsdsprpc.so|ae9a6817b43dadb600a42bcac30fcc606a8307bb
+vendor/lib64/libadsprpc.so|a1cd4ba7b4a447f4634f5eb9435e7481d06a092f
+vendor/lib64/libadsp_default_listener.so|2411edf852600158588e40858b4183566733438e
+vendor/lib64/libfastcvadsp_stub.so|50f415f15ba784877a081f0abc2224bb3904f531
+vendor/lib64/libfastcvopt.so|07f642a285a64e3f91175b06f4095763ba1ac841
+vendor/lib64/libmdsprpc.so|b3b74c7abc47d3cd7c8a7e94e711fe204999f176
 
 # ADSP modules - LA.UM.8.6.r1-04000-89xx.0
 vendor/lib/rfsa/adsp/libapps_mem_heap.so|5c82ad9cfe3f30105d899e2a4e90cc7566f81252
