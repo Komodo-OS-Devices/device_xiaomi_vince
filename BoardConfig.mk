@@ -53,7 +53,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_KERNEL_CONFIG := vince-krypton_defconfig
+TARGET_KERNEL_CONFIG := vince-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vince
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CLANG_COMPILE := true
@@ -175,8 +175,8 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vince
-TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
+# TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vince
+# TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -217,7 +217,7 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 VENDOR_SECURITY_PATCH := 2020-01-01
 
 # SELinux
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 

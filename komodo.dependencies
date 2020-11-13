@@ -8,7 +8,8 @@
   {
     "remote": "github",
     "repository": "Komodo-OS-Devices/vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
   },
   {
     "repository": "NusantaraDevs/clang",

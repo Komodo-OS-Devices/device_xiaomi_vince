@@ -90,7 +90,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.soundtrigger@2.2-service \
     audio.a2dp.default \
-    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaacwrapper \
