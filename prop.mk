@@ -156,6 +156,7 @@ debug.sf.enable_hwc_vds=1 \
 debug.sf.gpu_comp_tiling=1 \
 debug.sf.hw=1 \
 debug.sf.latch_unsignaled=1 \
+debug.sf.layer_caching_active_layer_timeout_ms=1000 \
 debug.sf.recomputecrop=0 \
 dev.pm.dyn_samplingrate=1 \
 persist.demo.hdmirotationlock=false \
